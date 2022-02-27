@@ -1,0 +1,95 @@
+body {
+  /* background: rgba(100, 100, 100, 0.8); */
+  /* background-image: linear-gradient(
+      rgba(0, 0, 255, 0.3),
+      rgba(255, 255, 0, 0.3)
+    ),
+    url("../img/3.jpg");
+  background-repeat: no-repeat; */
+  font-family: sans-serif;
+}
+
+.container {
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.2),
+      rgba(255, 255, 0, 0.2)
+    ),
+    url("../img/5.jpg"); */
+  background-color: rgba(100, 100, 100, 0.5);
+
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  border-radius: 3em;
+}
+
+.from {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  padding: 0px 5px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.card-top {
+  text-align: center;
+  font-size: 10px;
+  padding-top: 20px;
+  color: rgb(10, 10, 10);
+}
+
+.card-top > span {
+  font-size: 60px;
+}
+
+.marge {
+  margin-top: 50px;
+}
+
+.card-grup > input {
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  border-radius: 10px;
+  outline: 0px;
+  border: none;
+  background: rgba(61, 187, 187, 0.103);
+}
+
+.card-grup > button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  outline: 0px;
+  border: rgba(61, 187, 187, 0.603);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 255, 0, 0.2),
+    rgb(255, 255, 0)
+  );
+  color: rgb(0, 0, 0);
+}
+
+.card-grup > button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(61, 187, 187, 0.603),
+    rgb(52, 155, 155)
+  );
+}
+#usuario,
+#senha {
+  background-color: white;
+}

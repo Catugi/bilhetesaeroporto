@@ -1,0 +1,60 @@
+.navbar {
+  width: 40%;
+  float: right;
+  /* overflow: hidden; */
+  background-color: rgba(116, 109, 109, 0.3);
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 1px;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: white;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgba(22, 20, 20, 0.3);
+  width: 100%;
+  float: right;
+}
+
+.subnav-content a {
+  position: relative;
+  float: right;
+  color: black;
+  text-decoration: lightcyan;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
